@@ -71,18 +71,3 @@ class Button extends Component {
   }
 }
 ```
-
-### Tasks
-
-Once you've set up the repo successfully and run `npm start`, a fake API service (using [json-server](https://github.com/typicode/json-server)) is available at [http://localhost:3003/files](http://localhost:3003/files).
-
-For details of the available API Methods, please read the [json-server](https://github.com/typicode/json-server) documentation. For the purposes of these tasks, you will only need to perform a simple `GET` request with some parameters.
-
-1. Retrieve a list of files and display them on the page (with pagination). (Completed)
-2. Provide a way of sorting the files based on, e.g., size.  (Completed)
-3. Provide a way of filtering the files based on file name. (Completed)
-4. Provide some tests for your new functionality. (Completed)
-
-This repository is purposefully bare-bones: no state management or library for asynchronous requests are included. Feel free to install your preferred libraries and structure things as you see fit.
-
-In order to achieve the above tasks, you will have to give the app some structure (e.g. a reducer to handle actions, new React Components). Though the tasks are fairly simple, you should follow best practices to ensure you could build on it in the future.
