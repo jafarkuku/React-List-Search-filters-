@@ -115,6 +115,10 @@ ul.dropdown-menu {
    color:    #fff;
 }
 
+a{
+  color: #494949;
+}
+
 .list_1e6smam{
   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadein 1s; /* Firefox < 16 */
